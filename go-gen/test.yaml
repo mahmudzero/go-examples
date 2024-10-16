@@ -1,0 +1,4 @@
+package: test
+generate:
+  models: true
+output: api.test.gen.go

@@ -1,0 +1,4 @@
+package: foo
+generate:
+  models: true
+output: api.gen.go
