@@ -11,7 +11,7 @@ func rec[T any](res *T, err *error) {
 		var t T
 		*res = t
 		e := fmt.Errorf("panic %+v", r)
-		err = &e
+		*err = e
 	}
 }
 
